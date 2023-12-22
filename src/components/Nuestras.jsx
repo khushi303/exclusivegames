@@ -21,7 +21,9 @@ const Nuestras = () => {
                     <Row className='align-items-center'>
                         <Col data-aos="zoom-in-down" lg={6} className='silver_ellipse position-relative'>
                             <img src={Silverimg} alt="Silverimg" className='w-100 px-4 position-relative z-2' />
-                            <img src={Blacklayer} alt="Black_layer" className='shadow_black position-absolute start-0 end-0' />
+                            <div className='shadow_black position-absolute d-none'>
+                                <img src={Blacklayer} alt="Black_layer" className='w-100' />
+                            </div>
                         </Col>
                         <Col lg={6} className='mt-lg-0 mt-4 pe-lg-4'>
                             <h3 data-aos="fade-down" className='mb-0 ff_anton fs_lg fw-normal lh_120 text-white'>Silver</h3>

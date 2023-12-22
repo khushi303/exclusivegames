@@ -208,7 +208,9 @@ body {
 .shadow_black {
   background-blend-mode: multiply !important;
   mix-blend-mode: multiply !important;
-  bottom: 32px !important;
+  bottom: -32px !important;
+  right: 20px;
+  left: 74px;
 }
 
 .navicon {
