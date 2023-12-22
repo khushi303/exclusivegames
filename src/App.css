@@ -286,8 +286,9 @@ body {
   bottom: 0;
   right: 0;
   border-radius: 8px;
-  background: none;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.72) 100%);
   transition: all .3s linear !important;
+  opacity: 0;
 }
 
 .black_layer {
@@ -295,7 +296,7 @@ body {
 }
 
 .img_hover1:hover .black_layer::after {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.72) 100%);
+  opacity: 1;
 }
 
 .btn_none {
