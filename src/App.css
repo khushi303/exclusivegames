@@ -546,7 +546,7 @@ body {
   fill-opacity: 1;
 }
 
-.footer_icon:hover svg path {
+.footer_icon:hover {
   transform: translatey(-5px);
 }
 
@@ -594,7 +594,24 @@ body {
   height: 55px;
   border-radius: 55px;
   background: linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%);
+  animation: name 2500ms infinite ease-in-out;
 }
+
+
+@keyframes name {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 
 .mw_35 {
   max-width: 30px;

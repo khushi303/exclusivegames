@@ -9,7 +9,7 @@ const Mision = () => {
         <div id='Misión' className='mision_padding ellipse1 position-relative'>
             <Container>
                 <Row className='position-relative z-2'>
-                    <Col lg={6} className='d-flex justify-content-center col-12'>
+                    <Col lg={6} className='d-flex col-12'>
                         <div className='d-flex gap-lg-5 gap-md-4 gap-3 flex-lg-column flex-column-reverse position-relative z-2'>
                             <div data-aos="fade-up" className='mw_530 br_16'>
                                 <img src={Pokerimg} alt="Pokerimg" className='w-100 br_16 img_hov' />
