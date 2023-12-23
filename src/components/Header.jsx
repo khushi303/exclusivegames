@@ -16,7 +16,7 @@ const Header = () => {
             <nav className='py-3 bg_dark position-relative z-3'>
                 <Container>
                     <div className='d-flex align-items-center justify-content-between'>
-                        <img src={Logo} alt="Logo" className='mw_210 w-100' />
+                        <img src={Logo} alt="Logo" className='mw_210 w-100 cur_pointer' />
                         <ul className={`${show ? 'mb-0 list-unstyled left_100' : 'mb-0 list-unstyled left_0'} nav_bar`}>
                             <li onClick={() => setshow(!show)}><a href="#hogar" className='ff_inter fs_sm fw-normal text-white op_08 link_hov lh_160 position-relative footer_link'>Hogar</a></li>
                             <li onClick={() => setshow(!show)}><a href="#Misión" className='ff_inter fs_sm fw-normal text-white op_08 link_hov lh_160 position-relative footer_link'>Misión</a></li>

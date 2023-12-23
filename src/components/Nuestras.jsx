@@ -9,7 +9,6 @@ import HeartACard from '../assets/images/png/heart-A-card.png';
 import Greencoin from '../assets/images/png/Greencoin.png';
 import Diamondacard from '../assets/images/png/diamond-a-card.png';
 import Ludoimg from '../assets/images/png/ludobar.png';
-import Blacklayer from '../assets/images/png/black-layer.png';
 
 const Nuestras = () => {
     return (
@@ -19,10 +18,9 @@ const Nuestras = () => {
                 <p data-aos="fade-down" className='mb-0 ff_inter fs_sm fw-medium text-white lh_160 text-center'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
                 <div className='silver_box px-lg-0 px-3 mt-sm-5 mt-4'>
                     <Row className='align-items-center'>
-                        <Col data-aos="zoom-in-down" lg={6} className='silver_ellipse position-relative'>
-                            <img src={Silverimg} alt="Silverimg" className='w-100 px-4 position-relative z-2' />
-                            <div className='shadow_black position-absolute d-none'>
-                                <img src={Blacklayer} alt="Black_layer" className='w-100' />
+                        <Col data-aos="zoom-in-down" lg={6} className='blend_shadow silver_ellipse position-relative'>
+                            <img src={Silverimg} alt="Silverimg" className='w-100 px-4 position-relative z-2 img_hov1 cur_pointer' />
+                            <div className='shadow_black blend_shadow position-absolute d-no ne'>
                             </div>
                         </Col>
                         <Col lg={6} className='mt-lg-0 mt-4 pe-lg-4'>
@@ -147,7 +145,7 @@ const Nuestras = () => {
                             </div>
                         </Col>
                         <Col lg={7} data-aos="zoom-out-up" className='mt-lg-0 mt-4 pt-lg-0 pt-3 position-relative silver_ellipse1'>
-                            <img src={Ludoimg} alt="Ludoimg" className='w-100 px-4 position-relative z-2' />
+                            <img src={Ludoimg} alt="Ludoimg" className='w-100 px-4 position-relative z-2 img_hov1 cur_pointer' />
                         </Col>
                     </Row>
                 </div>

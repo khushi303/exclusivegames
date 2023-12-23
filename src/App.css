@@ -206,24 +206,33 @@ body {
 }
 
 .shadow_black {
-  background-blend-mode: multiply !important;
-  mix-blend-mode: multiply !important;
   bottom: -32px !important;
   right: 20px;
   left: 74px;
 }
 
+/* .blend_shadow {
+  background-blend-mode: multiply !important;
+  mix-blend-mode: multiply !important;
+  background: radial-gradient(51.68% 48.51% at 50.39% 55.02%, #B8B8B8 0%, #BCBCBC 23%, #C9C9C9 47%, #DEDEDE 72%, #FCFCFC 98%, #FFF 100%) !important;
+  gradientTransform=translate(322.444 18.3105) rotate(180) scale(315.337 17.1997)
+} */
+
 .navicon {
   display: none !important;
 }
 
-.img_hov {
+.img_hov,
+.img_hov1 {
   transition: all .3s linear;
 }
 
 .img_hov:hover {
-  transform: scale(1.08);
   transform: translateY(-7px);
+}
+
+.img_hov1:hover {
+  transform: scale(1.01);
 }
 
 /* --------------Atributos---------------- */

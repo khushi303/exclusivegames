@@ -19,7 +19,7 @@ const Casino = () => {
                         </div>
                     </Col>
                     <Col data-aos="zoom-out-down" lg={6} className='col-12 mt-lg-0 mt-4 pt-lg-0 pt-2'>
-                        <img src={Casinoimg} alt="Casinoimg" className='w-100 br_16 mw_md_520' />
+                        <img src={Casinoimg} alt="Casinoimg" className='w-100 br_16 mw_md_520 img_hov cur_pointer' />
                     </Col>
                 </Row>
             </Container>

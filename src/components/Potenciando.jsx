@@ -16,7 +16,7 @@ const Potenciando = () => {
                 <Row className='flex-lg-row flex-column-reverse'>
                     <Col data-aos="fade-down-right" lg={6} className='col-12 d-flex justify-content-lg-start justify-content-center mt-lg-0 mt-4'>
                         <div className='mw_md_558'>
-                            <img src={Jackpotimg} alt="Jackpotimg" className='w-100 br_16' />
+                            <img src={Jackpotimg} alt="Jackpotimg" className='w-100 br_16 img_hov cur_pointer' />
                         </div>
                     </Col>
                     <Col data-aos="fade-up-left" lg={6} className='col-12 d-flex flex-column justify-content-center'>
