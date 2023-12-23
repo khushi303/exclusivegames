@@ -111,10 +111,6 @@ body {
   cursor: pointer;
 }
 
-.btn_lime button {
-  transition: all .3s linear !important;
-}
-
 .btn_lime:hover button {
   box-shadow: 0 0 20px 2px rgba(122, 245, 122, 0.608) !important;
 }
