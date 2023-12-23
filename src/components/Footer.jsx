@@ -9,7 +9,7 @@ const Footer = () => {
             <Container className='pb-5 position-relative z-2'>
                 <Row>
                     <Col lg={4} className=''>
-                        <img src={Logo} alt="Logo" className='mw_210 w-100' />
+                        <img src={Logo} alt="Logo" className='mw_210 w-100 cur_pointer' />
                         <p className='mb-0 ff_inter fs_sm fw-medium text-white op_08 lh_160 mw_369 mt-3'>En Exclusive Games somos un equipo apasionado de personas dedicadas al desarrollo de multiplataformas para juegos de azar</p>
                         <div className='pt-4 d-flex gap-2 align-items-center'>
                             <Insta />
