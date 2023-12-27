@@ -14,18 +14,18 @@ import Blacklayerimg from '../assets/images/png/black-layer.png'
 const Nuestras = () => {
     return (
         <div id='Ofertas' className='position-relative ofertas_ellipse1'>
-            <Container className='position-relative z-2'>
+            <Container className='position-relative z-2 custom_container'>
                 <h3 data-aos="fade-down" className='ff_anton fs_xl fw-normal text-white lh_120 text-center'>Nuestras ofertas</h3>
                 <p data-aos="fade-down" className='mb-0 ff_inter fs_sm fw-medium text-white lh_160 text-center'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
                 <div className='silver_box px-lg-0 px-3 mt-sm-5 mt-4'>
                     <Row className='align-items-center'>
-                        <Col data-aos="zoom-in-down" lg={6} className='silver_ellipse position-relative'>
-                            <img src={Silverimg} alt="Silverimg" className='w-100 px-4 position-relative z-2 img_hov1 cur_pointer' />
+                        <Col data-aos="zoom-in-down" lg={7} className='silver_ellipse position-relative'>
+                            <img src={Silverimg} alt="Silverimg" className='w-100 px-lg-4 position-relative z-2 img_hov1 cur_pointer' />
                             <div className='shadow_black blend_shadow position-absolute d-none'>
                                 <img src={Blacklayerimg} alt="Blacklayerimg" className='w-100' />
                             </div>
                         </Col>
-                        <Col lg={6} className='mt-lg-0 mt-4 pe-lg-4'>
+                        <Col lg={5} className='mt-lg-0 mt-4 pe-lg-4'>
                             <h3 data-aos="fade-down" className='mb-0 ff_anton fs_lg fw-normal lh_120 text-white'>Silver</h3>
                             <p data-aos="fade-down" className='mb-0 ff_inter fs_sm fw-medium lh_160 text-white op_08 mt-3'>Diseño predeterminado, atractivo y fácil de navegar, tecnología HTLM5.</p>
                             <h3 data-aos="fade-down" className='mb-0 ff_anton fs_xl fw-normal lh_160 text-white mt-3 pt-1'>$5000</h3>

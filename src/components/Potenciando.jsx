@@ -12,7 +12,7 @@ import Bettingimg from '../assets/images/png/bettingimg1.png';
 const Potenciando = () => {
     return (
         <div className='bg_jackpot position-relative jackpot_ellipse'>
-            <Container className='pb_150 pb_80 position-relative z-2'>
+            <Container className='pb_150 pb_80 position-relative z-2 custom_container'>
                 <Row className='flex-lg-row flex-column-reverse'>
                     <Col data-aos="fade-down-right" lg={6} className='col-12 d-flex justify-content-lg-start justify-content-center mt-lg-0 mt-4'>
                         <div className='mw_md_558'>
@@ -48,14 +48,14 @@ const Potenciando = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className='pb_150 pb_80 d-flex align-items-center justify-content-center'>
+            <Container className='pb_150 pb_80 d-flex align-items-center justify-content-center custom_container'>
                 <div className='lanza_box w-100 d-flex align-items-center justify-content-center position-relative mix_blend_light overflow-hidden px-md-0 px-4'>
                     <h3 data-aos="fade-up" className='mb-0 ff_anton fs_xl fw-normal lh_120 text-white text-center mw_md_520 position-relative z-2'>lanza tu propia plataforma en sólo 2 semanas</h3>
                     <img src={Lanzalayer1} alt="Lanzalayer1" className='position-absolute end-0 bottom-0' />
                     <img src={Lanzalayer2} alt="Lanzalayer2" className='position-absolute start-0 top-0' />
                 </div>
             </Container>
-            <Container className='position-relative z-2'>
+            <Container className='position-relative z-2 custom_container'>
                 <h3 data-aos="fade-down" className='mb-0 ff_anton fs_xl fw-normal text-white text-center lh_120 pb_50'>Juegos en vivo</h3>
                 <Row className=' justify-content-center'>
                     <Col data-aos="fade-right" lg={4} md={6} className='col-12'>

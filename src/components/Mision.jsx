@@ -7,7 +7,7 @@ import { Arsonarrow } from './Iconimg';
 const Mision = () => {
     return (
         <div id='Misión' className='mision_padding ellipse1 position-relative'>
-            <Container>
+            <Container className='custom_container'>
                 <Row className='position-relative z-2'>
                     <Col lg={6} className='d-flex col-12'>
                         <div className='d-flex gap-lg-5 gap-md-4 gap-3 flex-lg-column flex-column-reverse position-relative z-2'>
@@ -21,7 +21,7 @@ const Mision = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={6} className='d-flex mid_ellipse position-relative col-12 mt-lg-0 mt-5'>
+                    <Col lg={6} className='d-flex mid_ellipse justify-content-lg-end position-relative col-12 mt-lg-0 mt-5'>
                         <div className='d-flex gap-lg-5 gap-md-4 gap-3 flex-column position-relative z-2'>
                             <div data-aos="fade-down">
                                 <h2 className='ff_anton fs_xl fw-normal lh_120 text-white'>Nuestra Misión</h2>

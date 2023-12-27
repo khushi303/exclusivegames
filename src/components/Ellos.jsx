@@ -8,8 +8,8 @@ import Happyhour from '../assets/images/png/happyhourimg.png'
 const Ellos = () => {
     return (
         <div className=''>
-            <div className='mt-5 pt-lg-5 pt-4 mb-5 position-relative ellos_ellipse1'>
-                <Container className='position-relative z-2'>
+            <div className='mt-5 pt-lg-5 pt-4 pb-5 position-relative ellos_ellipse1'>
+                <Container className='position-relative z-2 custom_container'>
                     <h3 data-aos="fade-down" className='mb-0 ff_anton fs_xl fw-normal text-white lh_120 text-center'>Ellos eligieron apostar con nosotros</h3>
                     <Row className='mt-sm-5 mt-4 justify-content-center'>
                         <Col data-aos="fade-down-right" lg={4} md={6} className='col-12'>
@@ -52,9 +52,10 @@ const Ellos = () => {
                             </div>
                         </Col>
                     </Row>
-                    <div className='d-flex align-items-center justify-content-center mt-4'>
-                        <p data-aos='fade-down' className='mb-0 ff_inter fs_sm fw-semibold text-white lh_160 text-center mw_md_883'>Clientes satisfechos que confiaron en Exclusive Games y han disfrutado de emocionantes experiencias de juego.
-                            Ahora, la próxima apuesta está en tus manos.
+                    <div className='d-flex flex-column align-items-center justify-content-center mt-4'>
+                        <p className='mb-0 ff_inter fs_sm fw-semibold text-white lh_160 text-center mw_md_883'>Clientes satisfechos que confiaron en Exclusive Games y han disfrutado de emocionantes experiencias de juego.
+                        </p>
+                        <p data-aos='fade-down' className='mb-0 ff_inter fs_sm fw-semibold text-white lh_160 text-center mw_390'>Ahora, la próxima apuesta está en tus manos.
                             Elige ganar. Elige exclusive game.</p>
                     </div>
                 </Container>

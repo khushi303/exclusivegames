@@ -6,7 +6,7 @@ import Lanzatulayer from '../assets/images/png/lanzalayertu.png';
 const LanzaTu = () => {
     return (
         <div className='py_lazatu'>
-            <Container>
+            <Container className='custom_container'>
                 <div className='lanza_tu_box px-lg-0 px-4'>
                     <div className='d-flex flex-column align-items-center justify-content-center bg_lanza '>
                         <h3 data-aos="fade-up" className='mb-0 ff_anton fs_lg fw-normal text-white lh_120 text-center z-3 position-relative'>Lanza tu propia plataforma en sólo 2 semanas</h3>

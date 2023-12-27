@@ -17,7 +17,7 @@ const Atributos = () => {
     return (
         <div className='position-relative z-2'>
             <div className='bg_atributos'>
-                <Container>
+                <Container className='custom_container'>
                     <h2 data-aos="fade-up" className='mb-0 ff_anton fs_xl fw-normal lh_120 text_greenblack text-center'>Nuestros Atributos de Marca</h2>
                     <Row className='pb_150 pb_50 pt-lg-5 pt-4 justify-content-center'>
                         <Col data-aos="fade-right" lg={4} sm={6} className='col-12 d-flex justify-content-lg-start justify-content-center position-relative'>
@@ -49,7 +49,7 @@ const Atributos = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container id='Tragamonedas' className=''>
+                <Container id='Tragamonedas' className='custom_container'>
                     <h2 data-aos="fade-down" className='mb-0 ff_anton fs_xl fw-normal text_greenblack lh_120 text-center'>Slots</h2>
                     <div data-aos="fade-down" className='d-flex align-items-center justify-content-center mt-3 mb_60 mb_40'>
                         <p className='mb-0 ff_inter fs_sm fw-medium text_greenblack lh_160 text-center mw_904'>En Exclusive Games, ofrecemos una selección de más de 600 juegos de los principales desarrolladores, como Aristocrat, Amatic, EGT, Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja incansablemente para innovar y ampliar nuestra oferta de experiencias, garantizando la máxima seguridad con operaciones protegidas por cifrado SSL de 256 bits.</p>
@@ -136,7 +136,7 @@ const Atributos = () => {
                     </Row>
                     <div data-aos='fade-down' className='d-flex align-items-center justify-content-center cur_pointer mt-4 pt-2'>
                         <div className='position-relative btn_lime'>
-                            <button className='btn_empezar ff_inter fs_sm fw-bold'>Empezar</button>
+                            <button className='btn_empezar ff_inter fs_sm fw-bold'>Mostrar más</button>
                             <img src={Btnemzor} alt="Btnemzor" className='position-absolute btn_emzorimg' />
                         </div>
                     </div>

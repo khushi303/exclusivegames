@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <div className='bg_header min_lg_100vh d-flex flex-column'>
             <nav className='py-3 bg_dark position-relative z-3'>
-                <Container>
+                <Container className='custom_container'>
                     <div className='d-flex align-items-center justify-content-between'>
                         <img src={Logo} alt="Logo" className='mw_210 w-100 cur_pointer' />
                         <ul className={`${show ? 'mb-0 list-unstyled left_100' : 'mb-0 list-unstyled left_0'} nav_bar`}>
@@ -39,7 +39,7 @@ const Header = () => {
                     </div>
                 </Container>
             </nav>
-            <Container id='hogar' className='d-flex flex-column align-items-center justify-content-center flex-grow-1 py-xl-0 py_header'>
+            <Container id='hogar' className='d-flex flex-column align-items-center justify-content-center flex-grow-1 py-xl-0 py_header custom_container'>
                 <h2 data-aos="fade-up" className='mb-0 ff_anton fs_2xl fw-normal text-white mw_505 text-uppercase lh_120 mb-3 text-center'>Exclusive Games. Pasión por ganar</h2>
                 <p data-aos="fade-up" className='mb-0 ff_inter fs_sm fw-semibold text-white text-center lh_160 op_08 mw-727 mb-4'>
                     En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de juegos hasta que un día decidimos crear los propios.
